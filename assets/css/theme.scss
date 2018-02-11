@@ -277,6 +277,44 @@ nav.shrink .navbar-toggle {
 }
 
 //********************************************************
+//                 Table
+//********************************************************
+
+.post-content > table {
+  background-color: #333333;
+  margin: 0 auto 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  tbody {
+    box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  th {
+    text-transform: uppercase;
+    text-align: center;
+    padding: .5em .75em;
+  }
+  td {
+    padding: .5em;
+  }
+
+}
+
+table.wide {
+  width: 100%;
+  max-width: 100%;
+}
+
+table.inner-borders {
+  border-collapse: collapse;
+  border-style: hidden;
+  td {
+    border: 1px solid #5e5e5e;
+  }
+}
+
+//********************************************************
 //                    Footer
 //********************************************************
 .footer {
@@ -375,3 +413,4 @@ nav.shrink .navbar-toggle {
     line-height: 1.8;
   }
 }
+
