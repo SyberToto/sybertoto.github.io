@@ -11,7 +11,7 @@ tags:
 
 # Accent color
 
-Accent color is color for some important elements, such as links, buttons, icons. Currently accent color is <span class="btn" style="background-color:#3CA2A2; color:#444444">#3CA2A2</span>. This theme has some more predefined colors available in **theme.scss**:
+Accent color is color for some important elements, such as links, buttons, icons. Currently accent color is <button class="btn" style="background-color:#3CA2A2; color:#444444">#3CA2A2</button>. This theme has some more predefined colors available in **theme.scss**:
 
 >theme.scss
 {:.filename}
@@ -28,7 +28,7 @@ $accent-color: #3CA2A2;     // original =)
 
 You can use one of them (just click the button below to see accent color in action) or define your own!
 
-<span class="btn" style="background-color:#C38FD6; color:#444444">#C38FD6</span>, <span class="btn" style="background-color:#8FD6B3; color:#444444">#8FD6B3</span>, <span class="btn" style="background-color:#35B4DE; color:#444444">#35B4DE</span>, <span class="btn" style="background-color:#D2E354; color:#444444">#D2E354</span>, <span class="btn" style="background-color:#52B54B; color:#444444">#52B54B</span>.
+<button class="btn" style="background-color:#C38FD6; color:#444444">#C38FD6</button>, <button class="btn" style="background-color:#8FD6B3; color:#444444">#8FD6B3</button>, <button class="btn" style="background-color:#35B4DE; color:#444444">#35B4DE</button>, <button class="btn" style="background-color:#D2E354; color:#444444">#D2E354</button>, <button class="btn" style="background-color:#52B54B; color:#444444">#52B54B</button>.
  
 <script>
   $('.btn').click(function(){
