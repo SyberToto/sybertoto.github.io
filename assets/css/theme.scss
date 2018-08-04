@@ -333,16 +333,6 @@ table.inner-borders {
   position: absolute;
 }
 
-
-//********************************************************
-//            Table of content (work in progress)
-//********************************************************
-.toc {
-  background-color: #2c2c2c;
-  margin-left: -19px;
-  margin-right: -19px;
-}
-
 .box h3{
 	text-align:center;
 	position:relative;
@@ -360,6 +350,16 @@ table.inner-borders {
 }
 .content{
   padding-bottom: 250px;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  padding-top: 50px;
+  margin-top: -50px;
 }
 
 //********************************************************

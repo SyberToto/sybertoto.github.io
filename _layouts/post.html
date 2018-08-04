@@ -19,7 +19,9 @@
                     </ul>
                   </div>
                   <div class="post-content">
-                    <div id="toc" class="toc"></div>
+                    {% if page.toc %}
+                      {% include toc.html html=content class='toc' %}
+                    {% endif %}
                     {{ content }}
                     {% include share.html %}
                   </div>
