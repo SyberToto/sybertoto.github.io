@@ -17,13 +17,15 @@ This theme was created on top of Jekyll Clean theme by Scotte, you can view the 
 This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
 sidebar.
 
-Optionally you can use:
+Some cool features:
 
  - [Disqus](http://disqus.com) as a comments system;
  - [Google Analytics](http://www.google.com/analytics/);
  - [Yandex Metrica](http://metrica.yandex.com);
  - Blog tags - check the section below;
- - Share buttons.
+ - [Share buttons](http://pavelmakhov.com/jekyll-clean-dark/2016/09/be-social)
+ - [Table Of Content](http://pavelmakhov.com/jekyll-clean-dark/2018/08/table-of-content).
+ - Bootstrap 4 and FontAwesome 5!
 
 All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social profiles. It uses [font-awesome](http://fontawesome.io/), so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
 
