@@ -263,7 +263,7 @@ nav {
    @include transition(color 0.31s);
    transition: all .7s ease;
   }
-  .navbar-brand:hover, .nav-link:hover{
+  .navbar-brand:hover, .nav-link:hover !important{
     color: white;
   }
   .navbar-brand {
