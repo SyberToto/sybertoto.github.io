@@ -263,8 +263,8 @@ nav {
    @include transition(color 0.31s);
    transition: all .7s ease;
   }
-  .navbar-brand:hover, .nav-link:hover !important{
-    color: white;
+  .navbar-brand:hover, .nav-link:hover {
+    color: white !important;
   }
   .navbar-brand {
     font-size: 30px;
