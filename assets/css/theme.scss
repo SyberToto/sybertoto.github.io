@@ -383,6 +383,25 @@ table.inner-borders {
   margin-top: -50px;
 }
 
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #343434;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #171717;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #202020;
+}
+
+
 //********************************************************
 //       Custom classes to apply to block elements,
 //  more info: http://pavelmakhov.com/2015/12/images-in-jekyll
