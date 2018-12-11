@@ -26,6 +26,7 @@ Some cool features:
  - [Share buttons](http://pavelmakhov.com/jekyll-clean-dark/2016/09/be-social);
  - [Table Of Content](http://pavelmakhov.com/jekyll-clean-dark/2018/08/table-of-content);
  - Bootstrap 4 and FontAwesome 5!
+ - [Stats page](http://pavelmakhov.com/jekyll-clean-dark/stats) - WIP
 
 All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social profiles. It uses [font-awesome](http://fontawesome.io/), so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
 
